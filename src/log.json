@@ -1,0 +1,24 @@
+Axios error: {
+    "config": {
+        "transformRequest": {},
+        "transformResponse": {},
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+            "Authorization": "eyJraWQiOiJRME94anJSSnVtbVJrb0d4OXJRcGo1UkE4WWp0cjZITUNzbzZXeE5WSURFPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI5MzJhNmQ0Yy1hZWUwLTQ4ZTUtODQ0Ni1mYWVlMDhiNjljNjQiLCJhdWQiOiIzaGgxbjBkb29ycDQ4aGZlYXN0dW11YnZvdSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjU1ZGRhYmM1LTg3YWUtMTFlOC1iYTBlLWUzZmFlNTQzZjA5NyIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTMxNjA0MzQ3LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0yLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMl9CaWFKMDFNYnEiLCJjb2duaXRvOnVzZXJuYW1lIjoibmljdUBpc2FuZXQucm8iLCJleHAiOjE1MzE2MDc5NDcsImlhdCI6MTUzMTYwNDM0NywiZW1haWwiOiJuaWN1QGlzYW5ldC5ybyJ9.QRbpRXfJx7JzBIuSZHdiguTLPXMUyCIWczDJBEic35XLJvZNTjWWa7aa-sqGDYPC0jSuxeHjPPKSrTdWOmDp6zIVrQ7R0Ld3NaDlygN9vgYhdl1dyxv2bB6lsC3200efJOEa-lbfN8fXH3ytc58djikQlstXL9pIBFh_zkPIbBIIkwR5wuzmRsE3EOvyxzBmElF8pbsdtg11iKrCAEJQbaZTkSOOhWxJln5PYZ6te6CAHLclW43SnzhdUWE9eaYbdDTgi3moe1upPP5MQiBH5o6Hcgtwp4rRSKjOkwnkXQDg6NIwSGzL1jMs-QGH6FbFAgnrrSFlxjY1NLpqF-3iSQ"
+        },
+        "method": "post",
+        "withCredentials": true,
+        "url": "https://0v4lw8psk5.execute-api.eu-west-2.amazonaws.com/stage",
+        "data": "{\"event_name\":\"ev3\",\"event_address\":\"adr3\",\"event_capacity\":\"33\",\"event_date\":\"2018-08-01\",\"event_description\":\"desc3\",\"counter\":\"0\"}"
+    },
+    "request": {}
+}
+
+ProjectionExpression: "event_date, event_name",
+    ConsistentRead: true,
+    ReturnConsumedCapacity: "TOTAL"
