@@ -13,10 +13,12 @@ class App extends Component {
   constructor(props) {
     super(props);
     global.poolDataCfg = {
+      //Please update the ID with your data from AWS Amazon Cognito
       UserPoolId: '', //_config.cognito.userPoolId,
       ClientId: '', //_config.cognito.userPoolClientId
       //Region: 'us-east-1'
     };
+    //Please update the API URL with your own link from AWS API Gateway
     //AWS LAmbda function API for getting all of the events from the database
     global.APIURL1 = '';
     //AWS LAmbda function API for adding a new event
