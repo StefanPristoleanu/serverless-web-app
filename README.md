@@ -11,7 +11,7 @@ Then, proceed to install the project's components with:
 # npm install
 
 To start the application, simply run:
-# npm run
+# npm start
 
 You should see the static website and be able to notice any change to the code that you will be doing from then on.
 
