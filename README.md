@@ -32,3 +32,6 @@ The second main folder is 'public', which contains all of the project's images a
 The third main folder is 'lambda-functions' and inside there are the three functions used by the project, and whose APIURL should be placed inside 'App.js' after they have been set up in AWS Lambda.
 
 APIURL1 matches 'getEvents.js', APIURL2 matches 'postEvent.js' and APIURL3 matches 'EnrollEvent.js'
+
+Run the following command after your changes to build the website and put it, the 'build' folder, in AWS S3 Storage to be available publicly:
+# npm build
